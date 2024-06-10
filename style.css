@@ -1,0 +1,25 @@
+#projects>.container>.row>img{
+  border-radius: 0;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  object-fit: cover;
+  height: 300px;
+  max-width: 400px;
+ 
+}
+
+#projects>.container>.row{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.col-lg-4>img{
+  height: 200px;
+  border-radius: 10%;
+  padding: 10px;
+  float: left;
+}
